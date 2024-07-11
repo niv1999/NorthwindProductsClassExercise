@@ -1,0 +1,14 @@
+{% extends "layout.html" %}
+
+{% block title %}
+Page Not Found
+{% endblock title %}
+
+{% block content %}
+
+<h2>The page your are looking for doesn't exist.</h2>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/t3otBjVZzT0?si=5Egrqbqj1V9LNnL1&amp;controls=0" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+<br>
+<a href="{{ url_for('home_view.home') }}">Back</a>
+
+{% endblock content %}
